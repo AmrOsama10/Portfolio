@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- wow.js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Daniel</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg position-fixed z-3 fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">DANIELS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon">
+            <i class="fa-solid fa-indent fs-3"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 p-3 px-5 gap-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#clint">Clint</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="home" id="home">
+      <div class="container">
+        <div
+          class="content-header d-flex flex-column align-items-center justify-content-center vh-100"
+        >
+          <h1 class="text-white fw-bold display-4">Hello</h1>
+          <h4 class="animation text-white display-3 py-4">I Am </h4>
+          <div class="icons-head d-flex gap-3 text-white">
+            <div class="ico-head"><i class="fa-brands fa-facebook-f"></i></div>
+            <div class="ico-head"><i class="fa-brands fa-twitter"></i></div>
+            <div class="ico-head"><i class="fa-brands fa-linkedin-in"></i></div>
+            <div class="ico-head"><i class="fa-brands fa-behance"></i></div>
+            <div class="ico-head"><i class="fa-brands fa-youtube"></i></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="container my-5">
+        <div class="row py-5 g-5">
+          <div class="col-lg-5">
+            <div class="wow animate__animated animate__fadeInLeft">
+                <div class="img-about position-relative ms-5">
+                  <img src="./imgs/hero.jpg" alt="">
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="wow animate__animated animate__fadeInRight">
+              <div class="text-about">
+              <h2 class="text-dark fw-bold">About Me.</h2>
+              <span class="d-block text-muted"
+                >UI / UX DESIGNER & WEB DEVELOPER</span
+              >
+              <p class="text-muted py-4">
+                I am <span class="text-dark fw-bold">Jerry Daniels</span> Lorem
+                Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever It has survived not only five centuries, but also the
+                leap into electronic but also the leap into electronic
+                typesetting, remaining essentially unchanged. It was popularised
+                in the 1960s with the release of Letraset sheets containing
+              </p>
+            </div>
+            <div class="progress-all d-flex flex-column gap-4">
+              <div
+                class="progress shadow"
+                role="progressbar"
+                style="height: 22px"
+                aria-label="Basic example"
+                aria-valuenow="95"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-dark py-3 px-2" style="width: 95%">
+                  <div
+                    class="d-flex justify-content-between align-items-center text-center mt-1"
+                  >
+                    <p class="">Web Design</p>
+                    <p class="">95%</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="progress shadow"
+                role="progressbar"
+                style="height: 22px"
+                aria-label="Basic example"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-dark py-3 px-2" style="width: 80%">
+                  <div
+                    class="d-flex justify-content-between align-items-center text-center mt-1"
+                  >
+                    <p class="">Branding</p>
+                    <p class="">80%</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="progress shadow"
+                role="progressbar"
+                style="height: 22px"
+                aria-label="Basic example"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-dark py-3 px-2" style="width: 90%">
+                  <div
+                    class="d-flex justify-content-between align-items-center text-center mt-1"
+                  >
+                    <p class="">Development</p>
+                    <p class="">90%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="btn-group my-5">
+              <a href="./files/cv.pdf" target="_blank"
+                ><button class="d-cv btn btn-dark me-1 rounded-2 px-4">
+                  Download c.v
+                </button></a
+              >
+              <a href="#contact"
+                ><button class="btn btn-outline-dark rounded-2 px-4">
+                  contact me
+                </button></a
+              >
+            </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services py-2" id="services">
+      <div class="container py-5 ">
+        <div class="section-title py-5">
+          <h1 class="text-dark fw-bold position-relative">Services.</h1>
+        </div>
+        <div class="wow animate__animated animate__fadeInRight" >
+          <div class="row g-5 py-5">
+            <div class="col-lg-4 ">
+            <div class="card-services">
+              <div class="top-icon-card text-center">
+                <i class="fa-solid fa-laptop fa-2x"></i>
+              </div>
+              <div class="card-text text-center">
+                <h5 class="text-dark py-2 fw-bold">Web Design</h5>
+                <p class="text-muted">
+                  Lorem Ipsum is simply dummy text of the <br />
+                  Lorem Ipsum has been the industry's <br />
+                  standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 ">
+            <div class="card-services">
+              <div class="top-icon-card text-center">
+                <i class="fa-solid fa-bullhorn fa-2x"></i>
+              </div>
+              <div class="card-text text-center">
+                <h5 class="text-dark py-2 fw-bold">Branding</h5>
+                <p class="text-muted">
+                  Lorem Ipsum is simply dummy text of the <br />
+                  Lorem Ipsum has been the industry's <br />
+                  standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 ">
+            <div class="card-services">
+              <div class="top-icon-card text-center">
+                <i class="fa-solid fa-umbrella fa-2x"></i>
+              </div>
+              <div class="card-text text-center">
+                <h5 class="text-dark py-2 fw-bold">Development</h5>
+                <p class="text-muted">
+                  Lorem Ipsum is simply dummy text of the <br />
+                  Lorem Ipsum has been the industry's <br />
+                  standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+          </div>
+  </div>
+  <div class="wow animate__animated animate__fadeInLeft" >
+     <div class="row g-5 py-5">
+          <div class="col-lg-4 ">
+            <div class="card-services">
+              <div class="top-icon-card text-center">
+                <i class="fa-regular fa-gem fa-2x"></i>
+              </div>
+              <div class="card-text text-center">
+                <h5 class="text-dark py-2 fw-bold">Creative Design</h5>
+                <p class="text-muted">
+                  Lorem Ipsum is simply dummy text of the <br />
+                  Lorem Ipsum has been the industry's <br />
+                  standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 ">
+            <div class="card-services">
+              <div class="top-icon-card text-center">
+                <i class="fa-solid fa-tv fa-2x"></i>
+              </div>
+              <div class="card-text text-center">
+                <h5 class="text-dark py-2 fw-bold">Fully Responsive</h5>
+                <p class="text-muted">
+                  Lorem Ipsum is simply dummy text of the <br />
+                  Lorem Ipsum has been the industry's <br />
+                  standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 ">
+            <div class="card-services">
+              <div class="top-icon-card text-center">
+                <i class="fa-solid fa-camera fa-2x"></i>
+              </div>
+              <div class="card-text text-center">
+                <h5 class="text-dark py-2 fw-bold">Retina Ready</h5>
+                <p class="text-muted">
+                  Lorem Ipsum is simply dummy text of the <br />
+                  Lorem Ipsum has been the industry's <br />
+                  standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+        
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="container py-5">
+        <div class="section-title py-5">
+          <h1 class="text-dark fw-bold position-relative">Portfolio.</h1>
+        </div>
+        <ul
+          class="nav nav-pills mb-3 py-4 justify-content-center"
+          id="pills-tab"
+          role="tablist"
+        >
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link text-dark active"
+              id="pills-All-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-All"
+              type="button"
+              role="tab"
+              aria-controls="pills-All"
+              aria-selected="true"
+            >
+              All
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link text-dark"
+              id="pills-Brand-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-Brand"
+              type="button"
+              role="tab"
+              aria-controls="pills-Brand"
+              aria-selected="false"
+            >
+              Brand
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link text-dark"
+              id="pills-Design-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-Design"
+              type="button"
+              role="tab"
+              aria-controls="pills-Design"
+              aria-selected="false"
+            >
+              Design
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link text-dark"
+              id="pills-Graphic-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-Graphic"
+              type="button"
+              role="tab"
+              aria-controls="pills-Graphic"
+              aria-selected="false"
+            >
+              Graphic
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="pills-All"
+            role="tabpanel"
+            aria-labelledby="pills-All-tab"
+            tabindex="0"
+          >
+    <div class="wow animate__animated animate__fadeInRight py-4" >
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="item-work position-relative overflow-hidden">
+                  <img src="./imgs/portfolio/1.jpg" alt="" class="w-100" />
+                  <div
+                    class="text-item-work text-center position-absolute d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <p class="fw-bold">WEB DESIGN</p>
+                    <div class="icons-work d-flex fa-1x">
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-podcast"></i>
+                      </div>
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="item-work position-relative overflow-hidden">
+                  <img src="./imgs/portfolio/2.jpg" alt="" class="w-100" />
+                  <div
+                    class="text-item-work text-center position-absolute d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <p class="fw-bold">WEB DESIGN</p>
+                    <div class="icons-work d-flex fa-1x">
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-podcast"></i>
+                      </div>
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="item-work position-relative overflow-hidden">
+                  <img src="./imgs/portfolio/3.jpg" alt="" class="w-100" />
+                  <div
+                    class="text-item-work text-center position-absolute d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <p class="fw-bold">WEB DESIGN</p>
+                    <div class="icons-work d-flex fa-1x">
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-podcast"></i>
+                      </div>
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+  </div>
+
+  <div class="wow animate__animated animate__fadeInLeft" >
+        <div class="row g-4">
+              <div class="col-lg-4 col-md-6">
+                <div class="item-work position-relative overflow-hidden">
+                  <img src="./imgs/portfolio/4.jpg" alt="" class="w-100" />
+                  <div
+                    class="text-item-work text-center position-absolute d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <p class="fw-bold">WEB DESIGN</p>
+                    <div class="icons-work d-flex fa-1x">
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-podcast"></i>
+                      </div>
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="item-work position-relative overflow-hidden">
+                  <img src="./imgs/portfolio/5.jpg" alt="" class="w-100" />
+                  <div
+                    class="text-item-work text-center position-absolute d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <p class="fw-bold">WEB DESIGN</p>
+                    <div class="icons-work d-flex fa-1x">
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-podcast"></i>
+                      </div>
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="item-work position-relative overflow-hidden">
+                  <img src="./imgs/portfolio/6.jpg" alt="" class="w-100" />
+                  <div
+                    class="text-item-work text-center position-absolute d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <p class="fw-bold">WEB DESIGN</p>
+                    <div class="icons-work d-flex fa-1x">
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-podcast"></i>
+                      </div>
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+  </div>
+            
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-Brand"
+            role="tabpanel"
+            aria-labelledby="pills-Brand-tab"
+            tabindex="0"
+          >
+            <div class="row g-4">
+              <div class="col-md-4 col-sm-6">
+                <div class="item-work position-relative overflow-hidden">
+                  <img src="./imgs/portfolio/4.jpg" alt="" class="w-100" />
+                  <div
+                    class="text-item-work text-center position-absolute d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <p class="fw-bold">WEB DESIGN</p>
+                    <div class="icons-work d-flex fa-1x">
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-podcast"></i>
+                      </div>
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="item-work position-relative overflow-hidden">
+                  <img src="./imgs/portfolio/6.jpg" alt="" class="w-100" />
+                  <div
+                    class="text-item-work text-center position-absolute d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <p class="fw-bold">WEB DESIGN</p>
+                    <div class="icons-work d-flex fa-1x">
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-podcast"></i>
+                      </div>
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-Design"
+            role="tabpanel"
+            aria-labelledby="pills-Design-tab"
+            tabindex="0"
+          >
+            <div class="row g-4">
+              <div class="col-md-4 col-sm-6">
+                <div class="item-work position-relative overflow-hidden">
+                  <img src="./imgs/portfolio/2.jpg" alt="" class="w-100" />
+                  <div
+                    class="text-item-work text-center position-absolute d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <p class="fw-bold">WEB DESIGN</p>
+                    <div class="icons-work d-flex fa-1x">
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-podcast"></i>
+                      </div>
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="item-work position-relative overflow-hidden">
+                  <img src="./imgs/portfolio/5.jpg" alt="" class="w-100" />
+                  <div
+                    class="text-item-work text-center position-absolute d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <p class="fw-bold">WEB DESIGN</p>
+                    <div class="icons-work d-flex fa-1x">
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-podcast"></i>
+                      </div>
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-Graphic"
+            role="tabpanel"
+            aria-labelledby="pills-Graphic-tab"
+            tabindex="0"
+          >
+            <div class="row g-4">
+              <div class="col-md-4 col-sm-6">
+                <div class="item-work position-relative overflow-hidden">
+                  <img src="./imgs/portfolio/1.jpg" alt="" class="w-100" />
+                  <div
+                    class="text-item-work text-center position-absolute d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <p class="fw-bold">WEB DESIGN</p>
+                    <div class="icons-work d-flex fa-1x">
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-podcast"></i>
+                      </div>
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="item-work position-relative overflow-hidden">
+                  <img src="./imgs/portfolio/3.jpg" alt="" class="w-100" />
+                  <div
+                    class="text-item-work text-center position-absolute d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <p class="fw-bold">WEB DESIGN</p>
+                    <div class="icons-work d-flex fa-1x">
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-podcast"></i>
+                      </div>
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="item-work position-relative overflow-hidden">
+                  <img src="./imgs/portfolio/5.jpg" alt="" class="w-100" />
+                  <div
+                    class="text-item-work text-center position-absolute d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <p class="fw-bold">WEB DESIGN</p>
+                    <div class="icons-work d-flex fa-1x">
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-podcast"></i>
+                      </div>
+                      <div class="icon-text-item-work mx-1">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="clint" id="clint">
+      <div class="container py-5">
+        <div class="section-title py-5">
+          <h1 class="text-dark fw-bold position-relative">Testimonials.</h1>
+        </div>
+        <div class="wow animate__animated animate__fadeInUp" >
+    <div id="carouselExampleIndicators" class="carousel slide py-3">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="content-carousel">
+                <img
+                  src="./imgs/1_New1.jpg"
+                  class="d-block rounded-circle img-fluid"
+                  alt="..."
+                />
+                <p class="text-center text-muted py-3">
+                  " Lorem Ipsum has been the industry's standard dummy text ever
+                  since the when an unknown printer took a galley of type <br />
+                  and scrambled it to make a type specimen book. "
+                </p>
+                <h6>Alex Smith</h6>
+                <span class="text-muted">Envato Customer</span>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="content-carousel">
+                <img
+                  src="./imgs/1_New1.jpg"
+                  class="d-block rounded-circle img-fluid"
+                  alt="..."
+                />
+                <p class="text-center text-muted py-3">
+                  " Lorem Ipsum has been the industry's standard dummy text ever
+                  since the when an unknown printer took a galley of type <br />
+                  and scrambled it to make a type specimen book. "
+                </p>
+                <h6>Alex Smith</h6>
+                <span class="text-muted">Envato Customer</span>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="content-carousel">
+                <img
+                  src="./imgs/1_New1.jpg"
+                  class="d-block rounded-circle img-fluid"
+                  alt="..."
+                />
+                <p class="text-center text-muted py-3">
+                  " Lorem Ipsum has been the industry's standard dummy text ever
+                  since the when an unknown printer took a galley of type <br />
+                  and scrambled it to make a type specimen book. "
+                </p>
+                <h6>Alex Smith</h6>
+                <span class="text-muted">Envato Customer</span>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-indicators py-3 position-static">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+        </div>
+  </div>
+      </div>
+    </section>
+
+    <section class="icons-site">
+      <div class="container">
+        <div class="wow animate__animated animate__fadeInUp" >
+          <div class="row g-5">
+          <div class="col-lg-3">
+            <div class="ico-item text-center">
+              <i class="fa-solid fa-users text-dark fa-2x"></i>
+              <h2 class="text-dark fw-bold py-2">850</h2>
+              <span class="text-muted">Happy Customers</span>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="ico-item text-center">
+              <i class="fa-solid fa-thumbs-up fa-2x"></i>
+              <h2 class="text-dark fw-bold py-2">230</h2>
+              <span class="text-muted">Complete Projects</span>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="ico-item text-center">
+              <i class="fa-solid fa-bullhorn fa-2x"></i>
+              <h2 class="text-dark fw-bold py-2">9450</h2>
+              <span class="text-muted">Lines Of Code</span>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="ico-item text-center">
+              <i class="fa-solid fa-cloud-arrow-down fa-2x"></i>
+              <h2 class="text-dark fw-bold py-2">780</h2>
+              <span class="text-muted">Files Downloaded</span>
+            </div>
+          </div>
+        </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="team" id="team">
+      <div class="container py-5">
+        <div class="section-title py-5">
+          <h1 class="text-dark fw-bold position-relative">Our Team.</h1>
+        </div>
+        <div class="wow animate__animated animate__fadeInUp" >
+          <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="card-team" >
+              <div class="img-team position-relative overflow-hidden">
+                <img src="./imgs/1.jpg" class="card-img-top" alt="..." />
+
+                <div class="card-back-team position-absolute">
+                  <div class="ico-back-team">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </div>
+                  <div class="ico-back-team">
+                    <i class="fa-brands fa-twitter"></i>
+                  </div>
+                  <div class="ico-back-team">
+                    <i class="fa-brands fa-pinterest"></i>
+                  </div>
+                  <div class="ico-back-team">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body rounded rounded-bottom-5">
+                <span
+                  class="card-text d-block text-white text-center fw-semibold fs-5"
+                  >John Doe</span
+                >
+                <p class="card-text text-white text-center fw-bold fs-4">
+                  FRONT-END DEVELOPER
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card-team" >
+              <div class="img-team position-relative overflow-hidden">
+                <img src="./imgs/2.jpg" class="card-img-top" alt="..." />
+
+                <div class="card-back-team position-absolute">
+                  <div class="ico-back-team">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </div>
+                  <div class="ico-back-team">
+                    <i class="fa-brands fa-twitter"></i>
+                  </div>
+                  <div class="ico-back-team">
+                    <i class="fa-brands fa-pinterest"></i>
+                  </div>
+                  <div class="ico-back-team">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body rounded rounded-bottom-5">
+                <span
+                  class="card-text d-block text-white text-center fw-semibold fs-5"
+                  >Dave Wood</span
+                >
+                <p class="card-text text-white text-center fw-bold fs-4">
+                  BACK-END DEVELOPER
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card-team" >
+              <div class="img-team position-relative overflow-hidden">
+                <img src="./imgs/1.jpg" class="card-img-top" alt="..." />
+
+                <div class="card-back-team position-absolute">
+                  <div class="ico-back-team">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </div>
+                  <div class="ico-back-team">
+                    <i class="fa-brands fa-twitter"></i>
+                  </div>
+                  <div class="ico-back-team">
+                    <i class="fa-brands fa-pinterest"></i>
+                  </div>
+                  <div class="ico-back-team">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body rounded rounded-bottom-5">
+                <span
+                  class="card-text d-block text-white text-center fw-semibold fs-5"
+                  >Claire Chedd</span
+                >
+                <p class="card-text text-white text-center fw-bold fs-4">
+                  BACK-END DEVELOPER
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container py-5">
+        <div class="section-title py-5">
+          <h1 class="text-dark fw-bold position-relative">Our Team.</h1>
+        </div>
+        <div class="wow animate__animated animate__fadeInUp" >
+          <div class="row py-5 g-4">
+          <div class="col-lg-4">
+            <div class="icons-contact text-center">
+              <div class="ico-contact">
+                <i class="fa-solid fa-location-arrow fa-2x"></i>
+              </div>
+              <h6 class="text-dark fw-bold py-2">Address</h6>
+              <span class="text-muted"
+                >6834 Hollywood Blvd - Los Angeles CA</span
+              >
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="icons-contact text-center">
+              <div class="ico-contact">
+                <i class="fa-regular fa-envelope fa-2x"></i>
+              </div>
+              <h6 class="text-dark fw-bold py-2">Email</h6>
+              <a href="mailto:Support@website.com" class="text-muted"
+                >Support@website.com</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="icons-contact text-center">
+              <div class="ico-contact">
+                <i class="fa-solid fa-phone fa-2x"></i>
+              </div>
+              <h6 class="text-dark fw-bold py-2">Phone</h6>
+              <span class="text-muted">+20 010 1234 5678</span>
+            </div>
+          </div>
+        </div>
+
+        <form action="" class="py-5">
+          <div class="row g-3">
+            <div class="col-lg-6">
+              <input
+                type="text"
+                class="form-control shadow-none border border-0 py-2"
+                placeholder="Name"
+              />
+            </div>
+            <div class="col-lg-6">
+              <input
+                type="email"
+                class="form-control shadow-none border border-0 py-2"
+                placeholder="Email"
+              />
+            </div>
+            <div class="col-12 py-3">
+              <textarea
+                name=""
+                id=""
+                rows="6"
+                class="form-control shadow-none border border-0 py-2"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <div class="col-12">
+              <button class="bt-form btn px-5">Submit</button>
+            </div>
+          </div>
+        </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-3">
+      <p class="text-white-50 text-center ">
+        Copy Right 2024 © By <a class="text-danger" href="https://github.com/AmrOsama10?tab=repositories" target="_blank">Amr Osama</a>
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+      <script src="./main.js"></script>
+  </body>
+</html>
